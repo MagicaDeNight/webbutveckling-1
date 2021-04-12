@@ -1,0 +1,35 @@
+html {
+    background-color: lightslategrey;
+}
+body {
+    margin: auto;
+    max-width: 500px;
+    padding-bottom: 0.1px; /*knep för div margin */
+    color: azure;
+}
+div { 
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+#a {
+    text-align: left;
+    color: purple;
+}
+#billy {
+    color: darkred;
+}
+#bob {
+    color: darkgreen;
+}
+.two {
+    font-size: larger;
+}
+.three {
+    font-size: smaller;
+}
+p {
+    font-family: sans-serif;
+}
+#bob > .two + p + p {
+    text-align: justify;
+}
